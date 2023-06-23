@@ -1,0 +1,27 @@
+.new-goal{
+    margin: 2rem;
+    padding: 1rem;
+   
+    
+
+    
+}
+input{
+    font: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid #170d0d;
+    margin-right: 1rem;
+}
+
+button{
+    margin-left: 1rem;
+    background-color: #131534;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
