@@ -1,13 +1,15 @@
 import React from "react";
 import UsersList from "../components/UsersList";
-
+import nuwi from './nuwi.jpeg'
 const Users=()=>{
-    const USERS=[{
+    const USERS=[
+        {
         id:'u1',
-        name:"tharindu",
-        image:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fscience%2Fflower&psig=AOvVaw3XhPHYXlaiygzxDfpLeVf4&ust=1687629112202000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIjdkMD62f8CFQAAAAAdAAAAABAE',
+        name:"Nuwani Hansika",
+        image:`${nuwi}`,
         places:3
-    }]
+    }
+]
     return <UsersList items={USERS}/>;
 }
 
